@@ -1,0 +1,43 @@
+.input-group-text, .form-check-input, .form-select{
+    border: 1px solid #FFDCDC;
+}
+
+a, #selectedFile{
+    color: #F23F3F;
+}
+
+.form-control{
+    border: 1px solid #FFDCDC;
+    font-size: 12px;
+}
+.btn{
+    background-color: #F23F3F;
+    border-radius: 20px;
+    color: white;
+}
+.inputFile{
+    border-radius: 20px;
+    background-color: white;
+    color: #F23F3F;
+    border: #F23F3F 1px solid;
+}
+.opt{
+    font-size: 9px;
+}
+input{
+    height: 38px;
+}
+
+/* pour enlever les flèches des inputs number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+input[type=date]{
+    font-size: 0.8em;
+}
